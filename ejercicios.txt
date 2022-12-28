@@ -6,17 +6,22 @@ const numero_guardado = 7
 (...)
 numero_variable = prompt("Ingresá un número")
 (...)
+
 2) Modificá el programa anterior para que el usuario guarde el valor inicial por medio de 
 un prompt.
+
 3) El usuario ingresará por prompt una contraseña. Luego le pedirá que la repita. En caso
 que la segunda vez no sea la misma mostrará un alert indicándolo. Luego le volverá a pedir
 la contraseña. Si la ingresa correctamente se mostrará un alert diciendo "Usuario logueado"
+
 4) Se hará un sumador. Por prompt el usuario ingresará un valor numérico. Estos se irán
 sumando. El ingreso finalizará cuando se ingrese un cero.
+
 5) Youtube pregunta cada media hora seguida de reproducción de canciones si queremos seguir 
 escuchando canciones. Si decimos que "si" entonces tendremos una hora nueva para escuchar; 
 si decimos que "no" entonces se cortarán las canciones. Vos vas a ingresar la duración de 
 cada canción y, en cuanto se cumpla la media hora, preguntarás si quiere seguir escuchando.
+
 6) En el ingreso a un acto del colegio se pregunta a cada invitado de qué grado es el 
 estudiante que vinieron a visitar. Los grados pueden ser "Primero", "Segundo", "Tercero",
 "Cuarto", "Quinto", "Sexto", "Septimo" y éstos son los valores que podemos ingresar.
@@ -48,15 +53,23 @@ Avanzados:
 1) Se hará un sumador. Por prompt el usuario ingresará un valor numérico. Estos se irán
 sumando. Cada tres valores ingresados el sistema automáticamente chequeará si el último 
 ingreso fue un número par. En este caso se cortará el ciclo y se mostrará por alert la suma.
+
 2) Un cajero cuenta con un saldo inicial de 100000 pesos. El usuario ingresará por prompt 
 dos valores: Si quiere efectuar un "R" (Retiro) o un "I" (Ingreso). Mientras no seleccione 
 "S" (salir) podrá sacar efectivo e ingresarlo. Por cada vez que se genere un movimiento
 se actualizará el saldo (que se mostrará por alert).
 Si el cajero se queda sin efectivo mostrará la leyenda "No tengo el saldo suficiente"
-3) Caja de neverland: Se puede:
+
+3) Caja de neverland: El usuario debe ingresar su nombre y puede:
 * Recargar saldo "S"
 * comprar "J": Juguetes; "G": Golosinas; 
+Junto a lo que vaya a la recarga/compra debe ingresar un monto por cada recarga/compra
+que haya hecho.
+Para finalizar el pedido, en cuanto le solicite un movimiento deberá ingresar "F"(Fin).
+Luego se pedirá un nuevo nombre (que será la próxima persona)
 Una persona podra comprar uno o varios juguetes, y hacer una o varias recargas.
+El proceso finalizará con una persona con nombre en vacío ("")
 a) Mostrar el nombre de la persona que mas gasto entre todo (pueden ser uno o varios items).
-b) Mostrar en qué se gastó más (si en saldo, juguetes o golosinas) y cuanto.
-c) El promedio de la recargas a lo largo del día.
+b) Independientemente de la persona, mostrar en qué se gastó más (si en saldo, juguetes 
+o golosinas) y cuanto es el monto total.
+c) El promedio de la recargas a lo largo del día para todas las personas.
